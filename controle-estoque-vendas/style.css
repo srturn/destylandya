@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#menu button {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+h1, h2 {
+  color: #333;
+}

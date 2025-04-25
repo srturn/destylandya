@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="manifest" href="manifest.json">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Estoque e Vendas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Controle de Estoque e Vendas</h1>
+
+  <div id="menu">
+    <button onclick="mostrarTela('produtos')">📦 Produtos</button>
+    <button onclick="mostrarTela('comandas')">🧾 Comandas</button>
+    <button onclick="mostrarTela('vendas')">💰 Vendas</button>
+  </div>
+
+  <div id="conteudo"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
